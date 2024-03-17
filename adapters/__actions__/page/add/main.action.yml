@@ -14,5 +14,6 @@ variables:
 rules:
   - name: add-page
     target: ../../../../app{{url}}/page.tsx
+    context: ./page-template.tsx
   - name: add-page-route
     target: ../../../../app/layout/routes.ts
