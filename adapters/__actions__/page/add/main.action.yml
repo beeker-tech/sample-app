@@ -13,7 +13,7 @@ variables:
 
 rules:
   - name: add-page
-    target: ../../../../app{{url}}/page.tsx
     context: ./page-template.tsx
+    target: ../../../../app{{url}}/page.tsx
   - name: add-page-route
     target: ../../../../app/layout/routes.ts
