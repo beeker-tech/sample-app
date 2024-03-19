@@ -89,8 +89,8 @@ dependencies:
 
 devDependencies:
   '@beeker-tech/cli':
-    specifier: ^0.5.1
-    version: 0.5.1(@types/inquirer@8.2.10)(typescript@5.2.2)
+    specifier: ^0.5.2
+    version: 0.5.2(@types/inquirer@8.2.10)(typescript@5.2.2)
 
 packages:
 
@@ -133,8 +133,8 @@ packages:
       regenerator-runtime: 0.14.0
     dev: false
 
-  /@beeker-tech/cli@0.5.1(@types/inquirer@8.2.10)(typescript@5.2.2):
-    resolution: {integrity: sha512-QxSHx65as5v8b7YYao7HQA54QlPGbYSC05gI8J78zE1CT6ZPDfpE0vNyd1sF+FwOjDfA2a4GxodLCHxF9wC9yg==}
+  /@beeker-tech/cli@0.5.2(@types/inquirer@8.2.10)(typescript@5.2.2):
+    resolution: {integrity: sha512-/IJgve3CxBm23S3aZrBbrwcEB0iqEI81kGyfQUblwu97cgVRvss3Ns7DgUXddcoaJBKIq7sfeiX0ZY5B55U+IA==}
     hasBin: true
     dependencies:
       '@gitbeaker/rest': 39.34.3

@@ -44,6 +44,6 @@
     "trailingComma": "none"
   },
   "devDependencies": {
-    "@beeker-tech/cli": "^0.5.1"
+    "@beeker-tech/cli": "^0.5.2"
   }
 }
