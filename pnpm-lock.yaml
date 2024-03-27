@@ -89,8 +89,8 @@ dependencies:
 
 devDependencies:
   '@beeker-tech/cli':
-    specifier: ^0.5.2
-    version: 0.5.2(@types/inquirer@8.2.10)(typescript@5.2.2)
+    specifier: ^0.5.4
+    version: 0.5.4(@types/inquirer@8.2.10)(typescript@5.2.2)
 
 packages:
 
@@ -133,8 +133,8 @@ packages:
       regenerator-runtime: 0.14.0
     dev: false
 
-  /@beeker-tech/cli@0.5.2(@types/inquirer@8.2.10)(typescript@5.2.2):
-    resolution: {integrity: sha512-/IJgve3CxBm23S3aZrBbrwcEB0iqEI81kGyfQUblwu97cgVRvss3Ns7DgUXddcoaJBKIq7sfeiX0ZY5B55U+IA==}
+  /@beeker-tech/cli@0.5.4(@types/inquirer@8.2.10)(typescript@5.2.2):
+    resolution: {integrity: sha512-rgMISgym9c4yc8rjK991Gu8EwpN1Zrq9dpWKYZfRi9vez6cSn5B7VbJuI/k5F5pXCtELMncrmCUs+Ri8kwLEbQ==}
     hasBin: true
     dependencies:
       '@gitbeaker/rest': 39.34.3
@@ -146,11 +146,11 @@ packages:
       '@octokit/types': 12.4.0
       ajv: 8.12.0
       axios: 1.6.5
+      chalk: 4.1.0
       class-transformer: 0.5.1
       class-validator: 0.14.0
       cli-spinners: 2.6.1
       cli-table: 0.3.11
-      colors: 1.4.0
       commander: 11.1.0
       dayjs: 1.11.10
       diff: 5.1.0
@@ -1639,6 +1639,14 @@ packages:
       supports-color: 5.5.0
     dev: true
 
+  /chalk@4.1.0:
+    resolution: {integrity: sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==}
+    engines: {node: '>=10'}
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
+    dev: true
+
   /chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
@@ -1749,11 +1757,6 @@ packages:
 
   /colors@1.0.3:
     resolution: {integrity: sha512-pFGrxThWcWQ2MsAz6RtgeWe4NK2kUE1WfsrvvlctdII745EW9I0yflqhe7++M5LEc7bV2c/9/5zc8sFcpL0Drw==}
-    engines: {node: '>=0.1.90'}
-    dev: true
-
-  /colors@1.4.0:
-    resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
     engines: {node: '>=0.1.90'}
     dev: true
 
