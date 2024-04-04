@@ -8,6 +8,8 @@
     }
 }
 
-nextjs-portal {
-    display: none;
+@layer global {
+    nextjs-portal {
+        display: none;
+    }
 }
