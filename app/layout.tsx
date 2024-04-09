@@ -1,4 +1,4 @@
-import 'adapters/styles/globals.css';
+import '../adapters/styles/globals.css';
 
 import { Analytics } from '@vercel/analytics/react';
 import { Nav, Toast } from './layout/index';

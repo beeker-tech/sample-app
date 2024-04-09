@@ -8,7 +8,7 @@
     }
 }
 
-@layer global {
+@layer base {
     nextjs-portal {
         display: none;
     }
