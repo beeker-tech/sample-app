@@ -1,3 +1,5 @@
 The language is typescript and the framework is react.js.
 
 Create a Page following the template provided with title {{title}} and subtitle {{subtitle}}.
+
+Keep strictly "'use client';" text on top of the content.

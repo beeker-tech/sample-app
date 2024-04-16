@@ -1,3 +1,4 @@
+'use client';
 import { Text } from '@tremor/react';
 
 export default function ExamplePage() {
