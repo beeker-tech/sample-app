@@ -5,6 +5,6 @@ Add the following imports:
 - import { SchemaOf } from 'yup';
 - import { FormValues } from './values';
 
-Add an exported empty constant named validationSchema and type  SchemaOf<FormValues>.
+Add an exported empty constant named validationSchema with type SchemaOf<FormValues>.
 
 Make it pretty with prettier.
